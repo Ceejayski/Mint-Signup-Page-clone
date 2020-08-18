@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    background-color: #eceef1;
+}
+div, p, h1,h2,h3{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: #0077C5;
+}
+li{
+    list-style: none;
+}
+header{
+    padding: 10px 30px 10px 30px;
+    height: 60px;
+}
+.signin{
+    float: right;
+}
+.text-signin{
+    margin-left: 10px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    font-size: 12px;
+}
+.text-signin span{
+    padding-bottom: 5px;
+}
+.signin-btn{
+    display: inline-block;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 10px;
+    background:#0077C5;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: normal;
+    height: 34px;
+}
+.signin-btn i{
+    margin-right: 5px;
+}
+.logo-header{
+    width: 100%;
+}
+.logo-header img{
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    height: 80px;
+}
+
+.logo-list ul{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.logo-list li{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.list-logo{
+    width: 30px;
+    height: 30px;
+}
+.logo-text{
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #606060;
+}
+.widget{
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 380px;
+    height: 80%;
+    color: #4C4C4C;
+}
+.widget-header{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.widget-header h3{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #4C4C4C;
+}
+.widget-header span{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    color: #4C4C4C;
+    padding-top: 20px;
+}
+
+.form-group{
+    display: block;
+    border: none;
+    padding-bottom: 30px;
+    line-height: 1.1;
+    justify-content: center;
+}
+.form-group label{
+    display: block;
+    padding-bottom: 6px;
+    font-size: 14px;
+}
+.form-group input{
+    height: 34px;
+    width: 320px;
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-left: 6px;
+    border: 1px solid #c1c5c8;
+}
+#create{
+    background-color: #0077C5;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 320px;
+    font-size: 14px;
+}
