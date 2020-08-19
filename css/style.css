@@ -9,7 +9,12 @@ body {
     background-color: #eceef1;
 }
 
-div, p, h1 ,h2 ,h3 , span {
+div,
+p ,
+h1 ,
+h2 ,
+h3 ,
+span {
     display: block;
 }
 
@@ -21,7 +26,10 @@ a {
 li {
     list-style: none;
 }
-
+footer li {
+    display: inline-block;
+    margin: 0 5px;
+}
 header {
     padding: 10px 30px 10px 30px;
     height: 60px;
@@ -49,7 +57,7 @@ header {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 10px;
     background: #0077c5;
-    color:#fff;
+    color: #fff;
     border-radius: 4px;
     padding: 0 20px;
     border: 1px solid #ccc;
@@ -213,7 +221,6 @@ li a {
     padding: 16px;
     text-align: center;
     box-sizing: border-box;
-    text-align: center;
     font-size: 10px;
     line-height: 1.1;
     font-weight: 300;
@@ -228,9 +235,4 @@ footer {
     color: #505050;
     margin: auto;
     line-height: 1.4;
-}
-
-footer li {
-    display: inline-block;
-    margin: 0 5px;
 }
