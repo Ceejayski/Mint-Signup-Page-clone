@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mint Signup Page  Clone </title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="fonts/fontawesome-free-5.14.0-web/css/all.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -20,16 +21,18 @@
             </div>
         </header>
             <div class="logo-header">
-                <img rel="image/SVG" alt="logo" src="img/intuit.svg"> 
+                <a href="#">
+                    <img rel="image/SVG" alt="logo" src="img/intuit.svg"> 
+                </a>
             </div>
             <div class="logo-list">
                 <ul>
-                    <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/mint.svg"></li>
-                    <li class="logo-text"> mint</li>
-                    <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/flexbooks.svg"></li>
-                    <li class="logo-text"> quickbooks</li>
-                    <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/turbotax.svg"></li>
-                    <li class="logo-text">turbotax</li>
+                    <li><a  href="https://www.mint.com/"><img class="list-logo" rel="image/SVG" alt="logo" src="img/mint.svg"></a></li>
+                    <li class="logo-text"><a  href="https://www.mint.com/"> mint</a></li>
+                    <li><a  href="https://quickbooks.intuit.com/"><img class="list-logo" rel="image/SVG" alt="logo" src="img/flexbooks.svg"></a></li>
+                    <li class="logo-text"><a  href="https://quickbooks.intuit.com/"> quickbooks</a></li>
+                    <li><a  href="https://turbotax.intuit.com/"><img class="list-logo" rel="image/SVG" alt="logo" src="img/turbotax.svg"></a></li>
+                    <li class="logo-text"><a  href="https://turbotax.intuit.com/">turbotax</a></li>
                 </ul>
             </div>
             <main class="widget">
@@ -45,12 +48,16 @@
                     <fieldset class="form-group">
                         <label for="phone">Phone  (recommended)</label>
                         <input type="tel" name="phone" id="phone">
+                        <span>Standard call, messaging or data rates may apply.</span>
                     </fieldset>
-                    <fieldset class="form-group">
+                    <fieldset class="form-group password">
                         <label for="password">password</label>
                         <input type="password" name="password" id="password">
                     </fieldset>
-                    <input type="submit" value="Create account" id="create">
+                    <button type="submit" id="create">
+                        <i id="lock-icon" class="material-icons">lock</i>
+                        Create Account
+                    </button>
                     
                 </form>
                 <div class="widget-footer">
@@ -70,9 +77,9 @@
             </main>
             <footer>
                 <ul>
-                    <li>Legal</li>
-                    <li>Privacy</li>
-                    <li>Security</li>
+                    <li><a class="logo-link" href="#"> Legal</a></li>
+                    <li><a class="logo-link" href="#"> Privacy</a></li>
+                    <li><a class="logo-link" href="#"> Security</a></li>
                 </ul>
                 <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
                 <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>

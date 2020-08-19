@@ -1,30 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+
+body {
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     background-color: #eceef1;
 }
-div, p, h1,h2,h3{
+
+
+div, p, h1 ,h2 ,h3, span {
     display: block;
 }
-a{
+
+
+a {
     text-decoration: none;
     color: #0077C5;
 }
-li{
+
+
+li {
     list-style: none;
 }
-header{
+
+
+header {
     padding: 10px 30px 10px 30px;
     height: 60px;
 }
-.signin{
+
+
+.signin {
     float: right;
 }
-.text-signin{
+
+
+.text-signin {
     margin-left: 10px;
     float: left;
     display: flex;
@@ -32,10 +46,14 @@ header{
     text-align: right;
     font-size: 12px;
 }
-.text-signin span{
+
+
+.text-signin span {
     padding-bottom: 5px;
 }
-.signin-btn{
+
+
+.signin-btn {
     display: inline-block;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin-left: 10px;
@@ -49,40 +67,59 @@ header{
     font-weight: normal;
     height: 34px;
 }
-.signin-btn i{
+
+
+.signin-btn i {
     margin-right: 5px;
 }
-.logo-header{
+
+
+.logo-header {
     width: 100%;
 }
-.logo-header img{
+
+
+.logo-header img {
     margin: 0 auto;
     display: block;
     width: 200px;
     height: 80px;
 }
 
-.logo-list ul{
+
+.logo-list ul {
     display: flex;
     justify-content: center;
     margin-bottom: 15px;
     margin-top: 0;
 }
-.logo-list li{
+
+
+.logo-list li {
     margin-left: 3px;
     margin-right: 3px;
 }
-.list-logo{
+
+
+.list-logo {
     width: 30px;
     height: 30px;
 }
-.logo-text{
+
+
+li a {
+    color: #606060;
+}
+
+
+.logo-text {
     align-self: center;
     font-size: 1.2rem;
     font-weight: 400;
-    color: #606060;
 }
-.widget{
+
+
+.widget {
     background-color: #fff;
     border: 1px solid #c7c7c7;
     margin: auto;
@@ -92,18 +129,24 @@ header{
     height: 80%;
     color: #4C4C4C;
 }
-.widget-header{
+
+
+.widget-header {
     text-align: center;
     padding-bottom: 20px;
     font-weight: 400;
 }
-.widget-header h3{
+
+
+.widget-header h3 {
     font-size: 24px;
     font-weight: 400;
     line-height: 1.1;
     color: #4C4C4C;
 }
-.widget-header span{
+
+
+.widget-header span {
     display: block;
     font-size: 14px;
     font-weight: 300;
@@ -111,19 +154,24 @@ header{
     padding-top: 20px;
 }
 
-.form-group{
+
+.form-group {
     display: block;
     border: none;
     padding-bottom: 30px;
     line-height: 1.1;
     justify-content: center;
 }
-.form-group label{
+
+
+.form-group label {
     display: block;
     padding-bottom: 6px;
     font-size: 14px;
 }
-.form-group input{
+
+
+.form-group input {
     height: 34px;
     width: 320px;
     box-sizing: border-box;
@@ -132,24 +180,50 @@ header{
     border-radius: 5px;
     border: 1px solid #c1c5c8;
 }
-#password{
+
+
+.password {
+    margin-top: -5px;
+}
+
+
+.form-group span {
+    padding: 5px 0;
+    font-size: 10px;
+}
+
+
+#password {
     background-image: url('../img/openLock.png');
     background-repeat: no-repeat;
     background-position-y: 50%;
     background-size: 20px;
     background-position-x: 98%;
 }
-#create{
+
+
+#create {
     background-color: #0077C5;
     color: #ffffff;
     border: none;
     border-radius: 5px;
     height: 3rem;
     width: 320px;
-    font-size: 14px;
+    font-size: 15.75px;
+    font-weight: 300;
     margin-bottom: 40px;
 }
-.widget-footer{
+
+
+#lock-icon {
+    vertical-align: middle;
+    font-size: 15px;
+    padding-bottom: 0.2rem;
+    padding-right: 5px;
+}
+
+
+.widget-footer {
     display: block;
     text-align: center;
     line-height: 1.1;
@@ -158,10 +232,14 @@ header{
     font-style: italic;
     font-weight: 300;
 }
-.widget-footer span{
-    display: block;
+
+
+.widget-footer span {
+    margin: 10px 0;
 }
-.widget-footer-span{
+
+
+.widget-footer-span {
     background-color: #ECEEF1;
     margin: 32px -30px -30px -30px;
     padding: 16px;
@@ -172,7 +250,9 @@ header{
     line-height: 1.1;
     font-weight: 300;
 }
-footer{
+
+
+footer {
     display: block;
     text-align: center;
     padding: 20px 0;
@@ -182,10 +262,9 @@ footer{
     margin: auto;
     line-height: 1.4;
 }
-footer li{
+
+
+footer li {
     display: inline-block;
     margin: 0 5px;
-}
-footer span{
-    display: block;
 }
