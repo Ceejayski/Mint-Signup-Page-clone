@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mint Signup Page  Clone </title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="fonts/fontawesome-free-5.14.0-web/css/all.css">
@@ -17,52 +19,63 @@
                 <button class="signin-btn"><i class="fa fa-lock"></i>Sign In</button>
             </div>
         </header>
-        <div class="logo-header">
-            <img rel="image/SVG" alt="logo" src="img/intuit.svg"> 
-        </div>
-        <div class="logo-list">
-            <ul>
-                <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/mint.svg"></li>
-                <li class="logo-text"> mint</li>
-                <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/flexbooks.svg"></li>
-                <li class="logo-text"> quickbooks</li>
-                <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/turbotax.svg"></li>
-                <li class="logo-text">turbotax</li>
-            </ul>
-        </div>
-        <div class="widget">
-            <div class="widget-header">
-                <h3>Create an Intuit account</h3>
-                <span>One account for everything Intuit, including Mint. <a href="#">Learn more</a></span>
+            <div class="logo-header">
+                <img rel="image/SVG" alt="logo" src="img/intuit.svg"> 
             </div>
-            <form>
-                <fieldset class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" name="email" id="email">
-                </fieldset>
-                <fieldset class="form-group">
-                    <label for="phone">Phone  (recommended)</label>
-                    <input type="phone" name="phone" id="phone">
-                </fieldset>
-                <fieldset class="form-group">
-                    <label for="Password">Password</label>
-                    <input type="password" name="password" id="password">
-                </fieldset>
-                <input type="submit" value="Create account" id="create">
-                
-            </form>
-            <div class="widget-footer">
-                <span>
-                    By clicking Create account, you agree to our
-                </span>
-                <span><a href="#"> Terms</a> and have read and acknowledge our <a href="#">Privacy</a></span>
-                <span>
-                    <a href="#">Statement.</a>
-                </span>
+            <div class="logo-list">
+                <ul>
+                    <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/mint.svg"></li>
+                    <li class="logo-text"> mint</li>
+                    <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/flexbooks.svg"></li>
+                    <li class="logo-text"> quickbooks</li>
+                    <li><img class="list-logo" rel="image/SVG" alt="logo" src="img/turbotax.svg"></li>
+                    <li class="logo-text">turbotax</li>
+                </ul>
             </div>
-        </div>
-        <main>
-
-        </main>
+            <main class="widget">
+                <div class="widget-header">
+                    <h3>Create an Intuit account</h3>
+                    <span>One account for everything Intuit, including Mint. <a href="#">Learn more</a></span>
+                </div>
+                <form>
+                    <fieldset class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="phone">Phone  (recommended)</label>
+                        <input type="tel" name="phone" id="phone">
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password">
+                    </fieldset>
+                    <input type="submit" value="Create account" id="create">
+                    
+                </form>
+                <div class="widget-footer">
+                    <span>
+                        By clicking Create account, you agree to our
+                    </span>
+                    <span><a href="#"> Terms</a> and have read and acknowledge our <a href="#">Privacy</a></span>
+                    <span>
+                        <a href="#">Statement.</a>
+                    </span>
+                </div>
+                <div class="widget-footer-span">
+                    <span>
+                        Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.
+                    </span>
+                </div>
+            </main>
+            <footer>
+                <ul>
+                    <li>Legal</li>
+                    <li>Privacy</li>
+                    <li>Security</li>
+                </ul>
+                <span>© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+                <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+            </footer>
     </body>
 </html>

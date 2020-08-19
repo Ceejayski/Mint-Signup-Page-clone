@@ -129,6 +129,7 @@ header{
     box-sizing: border-box;
     padding-left: 8px;
     padding-left: 6px;
+    border-radius: 5px;
     border: 1px solid #c1c5c8;
 }
 #create{
@@ -151,5 +152,33 @@ header{
     font-weight: 300;
 }
 .widget-footer span{
+    display: block;
+}
+.widget-footer-span{
+    background-color: #ECEEF1;
+    margin: 32px -30px -30px -30px;
+    padding: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 10px;
+    line-height: 1.1;
+    font-weight: 300;
+}
+footer{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    width: 90%;
+    font-size: 12px;
+    color: #505050;
+    margin: auto;
+    line-height: 1.4;
+}
+footer li{
+    display: inline-block;
+    margin: 0 5px;
+}
+footer span{
     display: block;
 }
