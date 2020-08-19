@@ -10,10 +10,10 @@ body {
 }
 
 div,
-p ,
-h1 ,
-h2 ,
-h3 ,
+p,
+h1,
+h2,
+h3,
 span {
     display: block;
 }
@@ -26,10 +26,12 @@ a {
 li {
     list-style: none;
 }
+
 footer li {
     display: inline-block;
     margin: 0 5px;
 }
+
 header {
     padding: 10px 30px 10px 30px;
     height: 60px;
